@@ -1,0 +1,55 @@
+.app-Container {
+  display: flex;
+  justify-content: center;
+  background-color: #161625;
+  min-height: 100vh;
+}
+.cowin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1110px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.logo-heading {
+  color: #2d87bb;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'roboto';
+  line-height: 1.5;
+  margin-left: 10px;
+  font-style: normal;
+}
+.heading {
+  color: #cbd5e1;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'roboto';
+  line-height: 1.5;
+  font-style: normal;
+}
+.loader-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failed-img {
+  width: 50%;
+  margin: 10px;
+}
